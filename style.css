@@ -1,0 +1,90 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Apply styles to header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Apply styles to section */
+section {
+    padding: 40px 0;
+}
+
+/* Apply styles to container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Apply styles to project */
+.project {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #007bff;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+
+/* Apply styles to about me section */
+#about-me {
+    background-color: #f9f9f9;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    list-style: none;
+}
+
+.skills li {
+    margin-bottom: 5px;
+}
