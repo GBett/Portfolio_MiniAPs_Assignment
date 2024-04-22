@@ -83,10 +83,10 @@ section {
 
 .skills ul {
     list-style: none;
-    padding-left: 20px; 
+    padding-left: 20px; /* Add padding for indentation */
 }
 
 .skills li {
     margin-bottom: 5px;
-    list-style-type: disc;
+    list-style-type: disc; /* Use dots as bullets */
 }
