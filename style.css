@@ -83,8 +83,10 @@ section {
 
 .skills ul {
     list-style: none;
+    padding-left: 20px; 
 }
 
 .skills li {
     margin-bottom: 5px;
+    list-style-type: disc;
 }
